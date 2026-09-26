@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="acento" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f81f7"/><stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <pattern id="pontos" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#30363d"/></pattern>
+  </defs>
+  <rect width="1280" height="300" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <rect x="840" y="1" width="439" height="298" fill="url(#pontos)" opacity=".8"/>
+  <rect x="0" y="0" width="1280" height="6" rx="3" fill="url(#acento)"/>
+  <g transform="translate(1000,150)" font-family="'Cascadia Code', Consolas, 'Courier New', monospace" font-size="17" fill="#8b949e">
+    <rect x="-130" y="-92" width="330" height="184" rx="12" fill="#161b22" stroke="#30363d"/>
+    <circle cx="-108" cy="-70" r="6" fill="#ff5f57"/><circle cx="-88" cy="-70" r="6" fill="#febc2e"/><circle cx="-68" cy="-70" r="6" fill="#28c840"/>
+    <text x="-108" y="-28"><tspan fill="#a371f7">var</tspan> <tspan fill="#e6edf3">dev</tspan> = <tspan fill="#a371f7">new</tspan> <tspan fill="#2f81f7">Dev</tspan>(</text>
+    <text x="-88" y="2">foco: <tspan fill="#3fb950">"back-end"</tspan>,</text>
+    <text x="-88" y="32">dados: <tspan fill="#3fb950">"SQL + BI"</tspan>,</text>
+    <text x="-88" y="62">lgpd: <tspan fill="#2f81f7">true</tspan>);</text>
+  </g>
+  <text x="72" y="104" font-size="46" font-weight="800" fill="#e6edf3">Rafael Barboza S. Portinho</text>
+  <text x="72" y="148" font-size="24" font-weight="600" fill="url(#acento)">Desenvolvedor .NET · Back-end · Banco de Dados · Dados &amp; BI</text>
+  <text x="72" y="188" font-size="17" fill="#8b949e">Sistemas completos, do banco à interface, com testes, CI e olhar de LGPD.</text>
+  <g transform="translate(72,226)"><rect width="123" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="62" y="22" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">C# · .NET 9</text></g><g transform="translate(205,226)"><rect width="132" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="66" y="22" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">ASP.NET Core</text></g><g transform="translate(348,226)"><rect width="114" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="57" y="22" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">SQL Server</text></g><g transform="translate(472,226)"><rect width="68" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="34" y="22" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Azure</text></g><g transform="translate(550,226)"><rect width="77" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="39" y="22" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Python</text></g><g transform="translate(637,226)"><rect width="123" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="62" y="22" text-anchor="middle" font-size="15" font-weight="600" fill="#e6edf3">Testes · CI</text></g>
+</svg>
