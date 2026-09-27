@@ -4,7 +4,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-escuro.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-claro.svg">
-  <img src="assets/banner-escuro.svg" alt="Rafael Barboza S. Portinho · Desenvolvedor .NET · Back-end · Banco de Dados · Dados & BI" width="100%">
+  <img src="assets/banner-escuro.svg" alt="Rafael Barboza S. Portinho · Desenvolvedor .NET e Java · Back-end · Banco de Dados · BI" width="100%">
 </picture>
 
 [Português](#português) · [English](#english)
@@ -22,7 +22,7 @@
 
 ### Sobre mim
 
-Sou analista e desenvolvedor de sistemas, com experiência em **liderança técnica no setor público**. Construo aplicações web completas, do banco de dados à interface, com **C#/.NET** e **Python**, e uso dados para apoiar decisões.
+Sou analista e desenvolvedor de sistemas, com experiência em **liderança técnica no setor público**. Construo aplicações web completas, do banco de dados à interface, com **C#/.NET**, **Java/Spring** e **Python**, e uso dados para apoiar decisões.
 
 Sou especialista em **Banco de Dados** e em **Gestão de TI**. Também tenho formação em Direito com especialização em **Proteção de Dados**, o que me dá um olhar atento para **LGPD, segurança e conformidade** nos sistemas que desenvolvo.
 
@@ -41,8 +41,12 @@ Sou especialista em **Banco de Dados** e em **Gestão de TI**. Também tenho for
 <img src="https://img.shields.io/badge/Dapper-555555?style=flat-square" alt="Dapper">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java 21">
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security">
+<img src="https://img.shields.io/badge/JPA%20%2F%20Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white" alt="JPA / Hibernate">
 <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT">
+<img src="https://img.shields.io/badge/OpenAPI-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="OpenAPI / Swagger">
 
 **Front-end**
 <br>
@@ -59,6 +63,7 @@ Sou especialista em **Banco de Dados** e em **Gestão de TI**. Também tenho for
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
 <img src="https://img.shields.io/badge/NoSQL-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="NoSQL">
+<img src="https://img.shields.io/badge/Flyway-CC0200?style=flat-square&logo=flyway&logoColor=white" alt="Flyway">
 
 **Deploy e DevOps**
 <br>
@@ -68,12 +73,14 @@ Sou especialista em **Banco de Dados** e em **Gestão de TI**. Também tenho for
 <img src="https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure">
 <img src="https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Bicep">
 <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render">
+<img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" alt="Maven">
 
 **Qualidade e testes**
 <br>
 <img src="https://img.shields.io/badge/xUnit-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="xUnit">
 <img src="https://img.shields.io/badge/FsCheck-378BBA?style=flat-square" alt="FsCheck">
 <img src="https://img.shields.io/badge/Stryker.NET-E74C3C?style=flat-square" alt="Stryker.NET">
+<img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5">
 <img src="https://img.shields.io/badge/Testes_de_integração-555555?style=flat-square" alt="Testes de integração">
 
 **Dados e BI**
@@ -85,6 +92,7 @@ Sou especialista em **Banco de Dados** e em **Gestão de TI**. Também tenho for
 
 | Projeto | O que é | Stack |
 |---|---|---|
+| [**Cofre**](https://github.com/barbozadevti/cofre) | Banco digital com perfis de cliente, caixa e gerente: Pix com QR Code no padrão do Banco Central, cheque especial com juros diários, caixinhas, cartão virtual com CVV dinâmico, auditoria e terminal da agência; testes rodando em H2 e PostgreSQL | Java 21 · Spring Boot 4 · Spring Security · JPA · Flyway · PostgreSQL · Docker · CI |
 | [**Crachá**](https://github.com/barbozadevti/cracha) | Sistema de RH com login por perfil (RH, gestor, colaborador), regras de LGPD, organograma, férias com aprovação, crachá com QR Code e histórico de cada alteração em Azure Table | C# · ASP.NET Core · EF Core · Azure Table/Blob · Bicep · Docker · CI |
 | [**Confere**](https://github.com/barbozadevti/confere) | Biblioteca de validações brasileiras (CPF, CNPJ alfanumérico 2026, boleto, PIX...) com API e site; 391 testes e **100% de nota de mutação** | C# · .NET 9 · xUnit · FsCheck · Stryker · Minimal API |
 | [**Vida+ Clínica**](https://github.com/barbozadevti/vida-clinica) | Gestão de clínicas: agenda, fila, prontuário SOAP, PDFs, financeiro e estoque, com login e perfis de acesso | Python · FastAPI · PostgreSQL · JWT · Docker |
@@ -137,7 +145,7 @@ Sou especialista em **Banco de Dados** e em **Gestão de TI**. Também tenho for
 
 ### About me
 
-I'm a systems analyst and developer with experience in **technical leadership in the public sector**. I build complete web applications, from the database to the user interface, with **C#/.NET** and **Python**, and I use data to support decision-making.
+I'm a systems analyst and developer with experience in **technical leadership in the public sector**. I build complete web applications, from the database to the user interface, with **C#/.NET**, **Java/Spring** and **Python**, and I use data to support decision-making.
 
 I hold postgraduate degrees in **Databases** and **IT Management**. I also have a Law degree with a specialization in **Data Protection**, which gives me a sharp eye for **privacy (LGPD/GDPR), security and compliance** in the systems I build.
 
@@ -147,17 +155,18 @@ I hold postgraduate degrees in **Databases** and **IT Management**. I also have 
 
 ### Tech stack
 
-**Back-end:** C#, .NET 9, ASP.NET Core, Entity Framework Core, Dapper, Python, FastAPI, Java, JWT
+**Back-end:** C#, .NET 9, ASP.NET Core, Entity Framework Core, Dapper, Java 21, Spring Boot, Spring Security, JPA/Hibernate, Python, FastAPI, JWT, OpenAPI
 **Front-end:** HTML5, CSS3, JavaScript, TypeScript, React, JSON
-**Databases:** SQL Server, PostgreSQL, SQLite, NoSQL
-**Deploy & DevOps:** Git, GitHub Actions, Docker, Azure, Bicep, Render
-**Quality & testing:** xUnit, FsCheck (property-based testing), Stryker.NET (mutation testing), integration tests
+**Databases:** SQL Server, PostgreSQL, SQLite, NoSQL, Flyway
+**Deploy & DevOps:** Git, GitHub Actions, Docker, Azure, Bicep, Render, Maven
+**Quality & testing:** xUnit, JUnit 5, FsCheck (property-based testing), Stryker.NET (mutation testing), integration tests
 **Data & BI:** Power BI, SAS Viya
 
 ### Featured projects
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**Cofre**](https://github.com/barbozadevti/cofre) | Digital bank with customer, teller and manager roles: Pix payments with QR codes following the Central Bank of Brazil standard, overdraft with daily interest, savings pots, virtual card with a dynamic CVV, audit trail and a branch terminal; tests run on H2 and PostgreSQL | Java 21 · Spring Boot 4 · Spring Security · JPA · Flyway · PostgreSQL · Docker · CI |
 | [**Crachá**](https://github.com/barbozadevti/cracha) | HR system with role-based login (HR, manager, employee), LGPD/GDPR privacy rules, org chart, leave approval, printable QR badge and an audit trail of every change in Azure Table | C# · ASP.NET Core · EF Core · Azure Table/Blob · Bicep · Docker · CI |
 | [**Confere**](https://github.com/barbozadevti/confere) | Brazilian document validation library (CPF, alphanumeric CNPJ, bank slips, PIX...) with an API and a web playground; 391 tests and a **100% mutation score** | C# · .NET 9 · xUnit · FsCheck · Stryker · Minimal API |
 | [**Vida+ Clínica**](https://github.com/barbozadevti/vida-clinica) | Clinic management: scheduling, queue, SOAP medical records, PDFs, billing and inventory, with login and role-based access | Python · FastAPI · PostgreSQL · JWT · Docker |
